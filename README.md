@@ -1,6 +1,6 @@
 1.需要有百度定向流量
 
-2.安装FlClash，下载地址https://github.com/chen08209/FlClash/tags（clash系列代理都行）
+2.安装FlClash，下载地址https://github.com/chen08209/FlClash/tags  （clash系列代理都行）
 
 3.下载“shellclash.yaml”配置文件
 
