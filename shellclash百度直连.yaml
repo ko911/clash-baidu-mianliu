@@ -29,8 +29,8 @@ proxies:
   - {name: 北京电信, server: 220.181.7.1, port: 443, type: http, headers: {X-T5-Auth: 683556433, Host: 153.3.236.22:443}}
   - {name: 北京电信2, server: 220.181.33.174, port: 443, type: http, headers: {X-T5-Auth: 683556433, Host: 153.3.236.22:443}}
   - {name: 钉钉直连, server: 220.181.111.189, port: 443, type: http, headers: {withAt: gw.alicdn.com, X-T5-Auth: 683556433, Host: 153.3.236.22:443}}
-  - {name: 直连, type: direct}
-  - {name: 拦截, type: reject}
+  - {name: 直连, type: direct, hidden: true}
+  - {name: 拦截, type: reject, hidden: true}
 
 proxy-groups:
   - {name: 默认代理, type: select, proxies: [节点选择, 自动延迟, 直连]}
